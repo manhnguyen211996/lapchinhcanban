@@ -1,0 +1,35 @@
+body{
+    background: url(https://ak.picdn.net/shutterstock/videos/1010398052/thumb/1.jpg);
+    margin: 0;
+}
+
+.main-header{
+    background-color: orange;
+    color: #333333;
+    margin: 0 auto;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container{
+    color: #333333;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    text-align: justify;
+    width: 350px;
+}
+
+p{
+    margin-left: auto;
+    margin-right: auto;
+    color: #333333;
+}
+
+img{
+    width: 350px;
+    margin-left: auto; 
+    margin-right: auto;
+    object-fit: contain;
+}

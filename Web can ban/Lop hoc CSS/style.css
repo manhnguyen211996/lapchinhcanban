@@ -1,0 +1,62 @@
+p {
+  color: normal;
+  font-size: 17px;
+  font-weight: lighter;
+  line-height: 30px;
+  text-align: justify;
+  font-style: normal;
+  font-family: sans-serif;
+}
+
+.red {
+  color: crimson;
+}
+
+a {
+  color: grey;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+li {
+  line-height: 15px;
+  margin: 10px;
+}
+
+h3 {
+  color: brown;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+figcaption {
+  font-weight: bold;
+  text-align: justify;
+  line-height: 30px;
+  font-family: sans-serif;
+}
+
+#id {
+  font-size: 20px;
+}
+
+h3#head3 {
+  height: 30px;
+}
+
+/* !important
+will overwrite everything as is more priorely
+- exception if there is "!important" in any 
+*/
+
+.class {
+  background-color: indigo !important;
+}
+
+/*
+nhưng trường hợp không ké thừa 
+*/
+
+/*
+
+*/
