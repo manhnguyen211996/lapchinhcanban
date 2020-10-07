@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.page{
+    padding: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    background-color: #fff;
+}
+
+.header{
+    width: 40%;       
+    text-align: center;
+    margin: 15px auto;
+}
+
+.personal-info{
+    text-align: justify;
+}
+
+.content{
+    text-align: justify;
+    margin: 15px auto;
+    width:100%;
+    line-height: 1.5em;
+}
+
+.date{
+    font-style: italic;
+    text-align: center;
+    width: 300px;
+    margin: 50px 0px 25px auto;
+}
+
+.sign{
+    text-align: center;
+    width: 300px;
+    margin: 25px 0px 25px auto;
+}
+
+.abbreviation:hover{
+    color: red;
+    cursor: default;
+}
