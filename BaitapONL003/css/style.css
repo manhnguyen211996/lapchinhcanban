@@ -1,0 +1,64 @@
+body{
+	background-color:#f4f4f4;
+	color:#555;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	line-height:1.6em;
+	margin:0;
+}
+
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+#main-header{
+	background-color:coral;
+    color:#fff;
+}
+
+img{
+    max-width: 300px;
+}
+
+.texture-info, .main{
+    max-width: 500px;
+}
+/* 
+    main page img max-width: 300px;
+    product page img max-width: 500px;
+*/
+.card-name{
+    font-size: xx-large;
+    
+}
+
+a{
+    color: #555;
+    text-decoration: none;
+}
+
+a:hover{
+    color: royalblue;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: 30px;
+  text-align: center;
+  font-family: arial;
+  box-sizing: border-box;
+  float: left;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.main{
+    text-align: justify;
+}
+
