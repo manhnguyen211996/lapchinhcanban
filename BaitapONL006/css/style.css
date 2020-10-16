@@ -1,0 +1,86 @@
+*{
+    font-family: sans-serif;
+}
+
+h2, h1{
+    font-size: 35px;
+}
+.container{
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+body{
+    max-width: 1295px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.music-card{
+    box-sizing: border-box;
+    display: inline-block;
+    width: 200px;
+    height: 110px;
+    text-align: center;
+    border: black solid 1px;
+    background-color: #777777;
+    border-radius: 15px;
+    background-image: url(https://photo-zmp3.zadn.vn/cover/1/e/0/f/1e0f4998259f2f8a0ae7de1a7110bb62.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+img{
+    vertical-align: middle;
+    height: auto;
+    max-width: 100%;
+}
+.music-card:not(:last-child){
+    margin-right: 10px;
+}
+
+.music-card{
+    margin-bottom: 15px;
+    /* margin-right: 10px; */
+}
+
+/* nav ul{
+    list-style: none;
+} */
+
+#nav{
+    width: 100%;
+}
+
+.menu{
+    list-style: none;
+    display: inline-flex;
+    margin: 5px 10px;
+}
+
+.menu-item{
+    display: inline;
+    margin-right: 20px;
+}
+
+.music-card a{
+    box-sizing: border-box;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding-top: 8px;
+}
+
+/* div.card-name{
+    padding-top: 5px;
+} */
+
+.submenu{
+    display: none;
+    list-style: none;
+}
+
+li.menu-item:hover .submenu{
+    display: block;
+}
