@@ -2,85 +2,66 @@
     font-family: sans-serif;
 }
 
-h2, h1{
-    font-size: 35px;
-}
-.container{
-    width: 1000px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
 body{
-    max-width: 1295px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.music-card{
-    box-sizing: border-box;
-    display: inline-block;
-    width: 200px;
-    height: 110px;
-    text-align: center;
-    border: black solid 1px;
-    background-color: #777777;
-    border-radius: 15px;
-    background-image: url(https://photo-zmp3.zadn.vn/cover/1/e/0/f/1e0f4998259f2f8a0ae7de1a7110bb62.jpg);
-    background-position: center center;
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
+    box-sizing: border-box;
+    font-family: Roboto,sans-serif;
 }
 
-img{
-    vertical-align: middle;
-    height: auto;
-    max-width: 100%;
-}
-.music-card:not(:last-child){
-    margin-right: 10px;
+.container{
+    background-image: url(../images/navbar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 4;
 }
 
-.music-card{
-    margin-bottom: 15px;
-    /* margin-right: 10px; */
-}
-
-/* nav ul{
+nav ul{
+    width: 1600px;
+    margin-right: auto;
+    margin-left: auto;
     list-style: none;
-} */
-
-#nav{
-    width: 100%;
-}
-
-.menu{
-    list-style: none;
-    display: inline-flex;
-    margin: 5px 10px;
+    z-index: 5;
 }
 
 .menu-item{
-    display: inline;
-    margin-right: 20px;
+    display: inline-block;
+    margin: 30px;
 }
 
-.music-card a{
-    box-sizing: border-box;
-    color: white;
+.menu_link{
+    color: #fff;
+    font-weight: bold;
+    word-spacing: 0px;
     text-decoration: none;
+    letter-spacing: 0px;
     font-size: 20px;
-    padding-top: 8px;
+    padding: 20px 7px;
+    border-radius: 5px;
+    position: relative;
 }
 
-/* div.card-name{
-    padding-top: 5px;
-} */
+.menu_link:hover{
+    text-decoration: underline;
+    background-color: green;
+}
 
 .submenu{
     display: none;
-    list-style: none;
+    margin: 5px;
+
 }
 
-li.menu-item:hover .submenu{
+div nav ul li:hover .submenu{
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+    margin-top: 15px;
+    padding: 15px;
+    background-color: blueviolet;
+}
+
+div nav ul li:hover .submenu ul{
     display: block;
 }
