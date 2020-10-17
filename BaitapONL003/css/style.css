@@ -50,7 +50,10 @@ a:hover{
   text-align: center;
   font-family: arial;
   box-sizing: border-box;
-  float: left;
+  display: inline-block;
+  /*float: left;*/
+  /*display: flex;*/
+  /*flex-wrap: nowrap;*/
 }
 
 .price {

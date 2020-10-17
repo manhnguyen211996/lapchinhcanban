@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #a6f6f1;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+main{
+    display: flex;
+    margin-top: 30px;
+}
+
+.blogs{
+    flex-basis: calc(75% - 30px);
+    /* calc(75% - 30p) => để tach 2 cai flex khỏi nhau */
+    margin-right: 30px;
+}
+
+.articles{
+    background-color: whitesmoke;
+}
+
+.author{
+    flex-basis: 25%;
+    background-color: white;
+    align-self: flex-start;
+}
+
+header{
+    padding: 100px;
+    background-color: whitesmoke;
+}
+
+h1{
+    text-align: center;
+}
+
+footer{
+    background-color: white;
+}
+
+/* Author */
+
+.author-img{
+    width: 100px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    image-resolution: ;
+}
+
+img{
+    max-width: 100%;
+}

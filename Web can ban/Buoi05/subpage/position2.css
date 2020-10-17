@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+
+.float-label{
+    position: relative;
+    top: 100px;
+}
+
+label{
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    transform: translate(0, -50%);
+    font-size: 15px;
+    color: grey;
+    transition: top .1s, left .1s;
+}
+input{
+    height: 40px;
+}
+
+input::placeholder{
+    opacity: 0;
+}
+
+input:focus+ label{
+    top: -10px;
+    left: 5px;
+    font-size: 16px;
+    color: black;
+}
+
+input:not(:placeholder-shown) + label{
+    top: -10px;
+    left: 5px;
+    font-size: 16px;
+    color: black;
+}

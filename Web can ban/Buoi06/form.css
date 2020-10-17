@@ -1,0 +1,30 @@
+.container{
+    width: 900px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* align-item or align-content
+    aling differently  */
+    align-items: flex-end;
+    /* align-content: flex-end; */
+    background-color: violet;
+}
+
+.item{
+    flex-basis: 18%;
+    flex-grow: 1;
+    justify-content: ;
+    align-content: ;
+    flex-direction: ;
+}
+
+.item:not(:nth-child(5n)){
+    margin-right: 2%;
+}
+
+img{
+    max-width: 100%;
+}
+
+

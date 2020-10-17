@@ -1,0 +1,21 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: fixed;
+    top: 100px;
+    left: 10px;
+    z-index: 0;
+}
+
+span{
+    display: block;
+    background-color: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+}
+
