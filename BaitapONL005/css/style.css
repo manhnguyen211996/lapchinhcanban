@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     font-family: sans-serif;
 }
@@ -51,3 +52,58 @@ span{
     z-index: 2;
 }
 
+=======
+*{
+    font-family: sans-serif;
+}
+
+body{
+    max-width: 1200px;
+    margin: 15px auto 0 auto;
+}
+
+h1, h2{
+    font-size: 35px;
+}
+
+.music-card{
+    box-sizing: border-box;
+    display: inline-block;
+    width: 215px;
+    height: 110px;
+    background-image: url(https://photo-zmp3.zadn.vn/cover/1/e/0/f/1e0f4998259f2f8a0ae7de1a7110bb62.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: none;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.music-card:not(:last-child){
+    margin-right: 15px;
+}
+
+.music-card a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    position: relative;
+    top: 60px;
+    font-weight: bold;
+}
+
+span{
+    display: block;
+    background-color: rebeccapurple;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+}
+
+>>>>>>> 1b53a148b28b020469850a8a8f2320aef6e0df0e

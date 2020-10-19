@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
   margin: 0px;
   padding: 0px;
@@ -62,3 +63,69 @@ abbr {
   color: red;
   cursor: default;
 }
+=======
+* {
+  margin: 0px;
+  padding: 0px;
+  background-color: #333;
+}
+
+.page {
+  width: 794px;
+  height: 1005px;
+  padding: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+  background-color: #fff;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  background-color: #fff;
+  width: 40%;
+  text-align: center;
+  margin: 15px auto;
+}
+
+.personal-info {
+  background-color: #fff;
+  text-align: justify;
+}
+
+.content {
+  background-color: #fff;
+  text-align: justify;
+  margin: 15px auto;
+  width: 100%;
+  line-height: 1.5em;
+}
+
+.date {
+  background-color: #fff;
+  font-style: italic;
+  text-align: center;
+  width: 300px;
+  margin: 50px 0px 25px auto;
+}
+
+.sign {
+  background-color: #fff;
+  text-align: center;
+  width: 300px;
+  margin: 25px 0px 25px auto;
+}
+
+p,
+b,
+abbr {
+  background-color: #fff;
+}
+
+.abbreviation:hover {
+  background-color: #fff;
+  color: red;
+  cursor: default;
+}
+>>>>>>> 1b53a148b28b020469850a8a8f2320aef6e0df0e

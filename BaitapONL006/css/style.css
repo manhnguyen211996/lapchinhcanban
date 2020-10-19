@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     font-family: sans-serif;
 }
@@ -64,4 +65,72 @@ div nav ul li:hover .submenu{
 
 div nav ul li:hover .submenu ul{
     display: block;
+=======
+*{
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    font-family: Roboto,sans-serif;
+}
+
+.container{
+    background-image: url(../images/navbar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 4;
+}
+
+nav ul{
+    width: 1600px;
+    margin-right: auto;
+    margin-left: auto;
+    list-style: none;
+    z-index: 5;
+}
+
+.menu-item{
+    display: inline-block;
+    margin: 30px;
+}
+
+.menu_link{
+    color: #fff;
+    font-weight: bold;
+    word-spacing: 0px;
+    text-decoration: none;
+    letter-spacing: 0px;
+    font-size: 20px;
+    padding: 20px 7px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.menu_link:hover{
+    text-decoration: underline;
+    background-color: green;
+}
+
+.submenu{
+    display: none;
+    margin: 5px;
+
+}
+
+div nav ul li:hover .submenu{
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+    margin-top: 15px;
+    padding: 15px;
+    background-color: blueviolet;
+}
+
+div nav ul li:hover .submenu ul{
+    display: block;
+>>>>>>> 1b53a148b28b020469850a8a8f2320aef6e0df0e
 }
