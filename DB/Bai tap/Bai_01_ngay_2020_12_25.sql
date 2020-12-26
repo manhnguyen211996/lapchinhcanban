@@ -1,0 +1,19 @@
+/*Cau 1*/
+SELECT * FROM hr.countries
+WHERE REGION_ID = 1 AND REGION_ID LIKE "A%";
+
+/*Cau 2*/
+SELECT * FROM hr.countries
+WHERE COUNTRY_NAME LIKE "______%";
+
+/*Cau 3*/
+SELECT * FROM hr.jobs
+WHERE MAX_SALARY BETWEEN 4000 AND 30000 AND JOB_TITLE LIKE "%program%";
+
+/*Cau 4*/
+SELECT * FROM hr.employees
+WHERE DEPARTMENT_ID = 60 AND MANAGER_ID BETWEEN 102 AND 103;
+
+/*Cau 5*/
+SELECT * FROM hr.employees
+WHERE JOB_ID LIKE "%it%" OR "%pro%";
